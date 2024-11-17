@@ -6,4 +6,4 @@ typedef struct linkedList
 } linkedList;
 
 void addToList(linkedList* l, int newValue);
-int removeFromList(linkedList* l);
+void removeFromList(linkedList* l);
